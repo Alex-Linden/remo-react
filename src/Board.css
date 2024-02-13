@@ -1,0 +1,24 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .board-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+  }
+  .x-marker {
+    color: red;
+  }
+  .o-marker {
+    color: blue;
+  }
